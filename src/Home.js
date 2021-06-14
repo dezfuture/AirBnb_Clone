@@ -1,10 +1,11 @@
 import React from "react";
 import classes from "./Home.module.css";
+import Banner from "./Banner";
 
 function Home() {
   return (
     <div className={classes.home}>
-      <h1>This is the home component</h1>
+      <Banner />
     </div>
   );
 }
